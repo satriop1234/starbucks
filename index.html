@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>starbuck web landing pg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        </header>
+            <a href="#" class="logo"><img src="logo.png"></a>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">menu</menu></a></li>
+                <li><a href="#">what's New</a></li>
+                <li><a href="#">promo</a></li>
+                <li><a href="#">conctact</a></li>  
+             </ul>
+        </header>
+        <div class="contenct">
+            <h2> LET THE GOOD TIMES BLOOM<BR> it's <span>starbucks</span></h2>
+                <p></p>
+                <a href="#">buy now</a>
+        </div>
+        <div class="imgBox">
+            <img src="img1.png" class="starbuck">
+        </div>
+    <div>
+        <ul class="thumb"></ul>
+            <li><img src="thumb1.png" oneclick="imgSlider(img1.png);ChangeCirclecolor('#017143')"></li>
+            <li><img src="thumb2.png" oneclick="imgSlider(img2.png);ChangeCirclecolor('#eb7495')"></li>
+            <li><img src="thumb3.png" oneclick="imgSlider(img3.png);ChangeCirclecolor('#d752b1')"></li>
+    </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a><li>
+            <li><a href="#"><img src="instagram.png"></a><li>
+            <li><a href="#"><img src="twitter.png"></a><li>
+    </ul>
+
+ </section> 
+ <script type="text/javascript">      
+    function  imgSlider(anything){
+        document.querySelector(".starbucks").src = anything;
+    }
+       function ChangeCirclecolor(color)
+           const circle = document.querySelector(".circle");
+           circle.style.background = color;
+    
+</script>
